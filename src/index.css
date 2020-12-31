@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  z-index: 500px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#FixedChatAreaMainDiv{
+
+	position: relative;
+    top: 90px;
+    
+
+	max-width: 100px;
+	max-height: 100px; 
+	text-align: center;
+	
+   display: inline-block;
+
+
+   /* width:250px;  or whatever width you want. 
+   max-width:250px;  or whatever width you want. 
+   display: inline-block;*/
+}
+#loginContainer{
+	text-align: center;
+	color: white;
+}
+#inputForText{
+	border: 2px solid #9595ea;
+	border-radius: 10px;
+	color: white;
+	background-color: #0b0b0c00;
+}
+#buttonForSubmit{
+	border: 2px solid  #9595ea;
+	border-radius: 10px;
+	color: white;
+	width: 60px;
+	background-color: #0b0b0c00;
+}
+#FixedChatAreaMainDivId{
+	border: 2px solid #28f201;
+	border-radius: 10px;
+	color: white;
+	width: 100%;
+	max-width: 700px;
+	height: 600px;
+	max-height: 600px;
+	overflow-x: hidden; 
+    overflow-y: auto
+}
+#FixedChatAreaMainDivIdInputMessage{
+	text-align: center;
+	
+}
+#inputForTextDuringChat{
+	color: white;
+	margin-top: 5px;
+	border: 2px solid orange;
+	border-radius: 10px;
+	background-color: #0b0b0c00;
+	width: 80%;
+	max-width: 550px;
+}
+#buttonDuringChatId{
+	color: white;
+	margin-top: 5px;
+	border: 2px solid orange;background-color: #0b0b0c00;
+	border-radius: 10px;
+	margin-left: 5px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0b0b0c00;; 
+   border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6c757d; 
+   border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
