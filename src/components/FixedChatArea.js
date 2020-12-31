@@ -36,7 +36,7 @@ function FixedChatArea(props){
 			
 		)
 }
-//now setting up the receving messages system
+//now setting up the receiving messages system
 
 var allreceivedMsgs=[]
 function getMsgs(){
