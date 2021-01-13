@@ -8,7 +8,7 @@
 2. Then a list of available users in the database will show up from there the user to chat with can be selected.
 3. That's it now you can start sending messages and the other user must select you for receiving messages. For that [FixedChatArea.js](https://github.com/Spectre-ak/Firebase-ReactJS/blob/main/src/components/FixedChatArea.js).
 
-#### Install firebase for react js in Node.js
+#### Install firebase for react js using npm
   $ npm install --save firebase
 
 ##### Chat history is not stored on the database so during a chat if the user is changed or on site reload, chat history won't be recovered.
